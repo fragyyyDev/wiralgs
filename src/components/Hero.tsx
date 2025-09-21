@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = () => {
     return (
-        <div className='w-full px-4 sm:px-6 lg:px-10 xl:px-16 min-h-[90vh] grid grid-cols-1 md:grid-cols-2 items-center'>
+        <div className='w-full px-4 sm:px-6 lg:px-10 xl:px-16 min-h-screen grid grid-cols-1 md:grid-cols-2 items-center'>
             <div className='flex flex-col gap-3 mt-12 md:mt-0'>
                 <div className="flex flex-col gap-2">
                     <div className="flex gap-2">

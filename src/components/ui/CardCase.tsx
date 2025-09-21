@@ -69,7 +69,7 @@ export default function CardCase({
         !!instagramFollowers || !!spotifyFollowers || !!youtubeSubscribers;
 
     return (
-        <Wrapper  {...(wrapperProps as any)} className='relative'>
+        <Wrapper  {...(wrapperProps as any)} className={`relative`}>
             {/* badge v rohu wrapperu */}
             <span
                 className="
@@ -96,8 +96,7 @@ export default function CardCase({
                         alt={imageAlt}
                         fill
                         sizes="(max-width: 768px) 100vw, 480px"
-                        className={`object-cover transition-transform duration-500 ${hovered ? 'scale-[1.03]' : 'scale-100'
-                            }`}
+                        className={`object-cover transition-transform duration-500`}
                         priority={false}
                     />
 
@@ -105,7 +104,7 @@ export default function CardCase({
                     <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-20%,rgba(255,255,255,0.55),transparent)]" />
 
                     {/* PRIMARY gradient odspodu ~ třetina výšky, lehký */}
-                    <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-primary/55 via-primary/30 to-transparent" />
+                    <div className={`absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-primary/55 via-primary/30 to-transparent`} />
 
                     {/* spodní čitelnostní „černý“ jemně zredukovaný (přes primary) */}
                     <div className="absolute inset-x-0 bottom-0 h-[45%] bg-gradient-to-t from-black/55 via-black/30 to-transparent" />

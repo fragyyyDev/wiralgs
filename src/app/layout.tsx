@@ -25,8 +25,6 @@ export default function RootLayout({
         className={`${inter.className} antialiased`}
         suppressHydrationWarning
       >
-        
-        <Navbar />
         {children}
       </body>
     </html>

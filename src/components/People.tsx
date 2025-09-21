@@ -143,13 +143,13 @@ const People = () => {
                 {/* Navigační šipky */}
                 <button
                     onClick={() => instanceRef.current?.prev()}
-                    className="absolute left-0 top-1/2 -translate-y-1/2 bg-primary text-white shadow rounded-full p-2"
+                    className="absolute left-0 top-1/2 -translate-y-1/2 bg-primary text-white shadow rounded-full p-2 border-primary hover:bg-white border hover:border-primary hover:text-primary  hover:scale-110 transition-all duration-300"
                 >
                     <ChevronLeft />
                 </button>
                 <button
                     onClick={() => instanceRef.current?.next()}
-                    className="absolute right-0 top-1/2 -translate-y-1/2 bg-primary text-white shadow rounded-full p-2"
+                    className="absolute right-0 top-1/2 -translate-y-1/2 bg-primary text-white shadow rounded-full p-2 border-primary hover:bg-white border hover:border-primary hover:text-primary  hover:scale-110 transition-all duration-300"
                 >
                     <ChevronRight />
                 </button>
