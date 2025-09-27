@@ -2,12 +2,12 @@
 
 import React from 'react';
 import CardCase from './ui/CardCase';
-import { useKeenSlider } from 'keen-slider/react';
+import { useKeenSlider, KeenSliderInstance } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-function AutoplayPlugin(slider: any) {
-    let timeout: any;
+function AutoplayPlugin(slider: KeenSliderInstance) {
+    let timeout: ReturnType<typeof setTimeout> | undefined;
     let mouseOver = false;
 
     function clearNextTimeout() {

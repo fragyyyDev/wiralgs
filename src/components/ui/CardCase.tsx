@@ -69,6 +69,7 @@ export default function CardCase({
         !!instagramFollowers || !!spotifyFollowers || !!youtubeSubscribers;
 
     return (
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         <Wrapper  {...(wrapperProps as any)} className={`relative`}>
             {/* badge v rohu wrapperu */}
             <span
