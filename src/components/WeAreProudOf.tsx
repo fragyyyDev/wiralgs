@@ -23,7 +23,7 @@ const items: Item[] = [
         description:
             'Vytvořili jsme kompletní vizuální identitu pro Palatinum Academy. Důraz byl kladen na moderní a profesionální vzhled, který odráží hodnoty akademie.',
         image: '/photos/palatinum.png',
-        href: 'https://www.instagram.com/ppp.pavelprochazka/',
+        href: '/portfolio/palatinum',
         tags: ['Reels', 'Grafika', 'Stories', "Webdesign"],
     },
     {
@@ -33,7 +33,7 @@ const items: Item[] = [
         description:
             'Pro developerský projekt Lofty Kolbenova jsme vytvořili kompletní vizuální prezentaci, která zdůraznila jedinečnou architekturu a moderní styl bydlení. Zajistili jsme fotografie, video tour i grafické materiály, které developer využil v online kampaních a prodejních materiálech. Díky atraktivní formě prezentace se podařilo zvýšit zájem a urychlit proces prodeje jednotek',
         image: '/photos/Lofty.jpg',
-        href: '#',
+        href: '/portfolio/lofty',
         tags: ['Fotografie', 'Video'],
     },
 ];

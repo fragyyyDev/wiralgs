@@ -1,7 +1,9 @@
 import About from "@/components/About";
+import ContactForm from "@/components/ContactForm";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import People from "@/components/People";
+import Portfolio from "@/components/Portfolio";
 import WeAreProudOf from "@/components/WeAreProudOf";
 import WhoWeHelped from "@/components/WhoWeHelped";
 
@@ -19,6 +21,8 @@ export default function Home() {
       <People />
       <About />
       <WeAreProudOf />
+      <ContactForm/>
+      <Portfolio/>
     </main>
   );
 }
