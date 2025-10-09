@@ -29,7 +29,7 @@ const About: React.FC = () => {
 
                 {/* Sub / value prop */}
                 <p className="text-black text-lg md:text-xl leading-relaxed">
-                    Děláme obsah, který <b>roste</b> — od ideje po distribuci. Kombinujeme
+                    Děláme originální obsah, který <b>funguje</b> — od ideje po distribuci. Kombinujeme
                     rychlou produkci s daty a testováním kreativy, takže místo líbivých slibů
                     přinášíme <b>měřitelné výsledky</b>.
                 </p>
@@ -39,11 +39,11 @@ const About: React.FC = () => {
                     <PlayCircle className="size-7 md:size-8 shrink-0 text-primary" />
                     <div className="text-sm md:text-base leading-relaxed">
                         <p className="font-semibold text-black">
-                            Pomohli jsme Radkovi Provázkovi (<span className="text-primary">@proveenglish</span>)
+                            Náš programátor vytvořil web Radku Provázkovi (<span className="text-primary">@proveenglish</span>)
                         </p>
                         <p className="text-zinc-700">
-                            nastavit obsahovou strategii a produkci videí, která dohromady generují
-                            <b> statisíce zhlédnutí</b> měsíčně a přivádějí nové studenty angličtiny.
+                            Nastavení kurzů a loginu pomohlo vygenerovat obrovské obraty.
+                            <b> stovky - tisíce</b>lidí měsíčně tráví čas na webu.
                         </p>
                     </div>
                 </div>
@@ -53,18 +53,18 @@ const About: React.FC = () => {
                     <li className="flex items-start gap-3 rounded-xl border border-zinc-200 p-4">
                         <Sparkles className="size-6 mt-0.5 text-primary shrink-0" />
                         <div>
-                            <p className="font-semibold text-black">Kreativa, co zaujme</p>
+                            <p className="font-semibold text-black">Kreativní práce</p>
                             <p className="text-zinc-700 text-sm">
-                                Hooky, storyboardy a střih navržené pro watch-time a retenci.
+                                Práce u které si řeknete, jak je to sakra napadlo? To je super!!!
                             </p>
                         </div>
                     </li>
                     <li className="flex items-start gap-3 rounded-xl border border-zinc-200 p-4">
                         <LineChart className="size-6 mt-0.5 text-primary shrink-0" />
                         <div>
-                            <p className="font-semibold text-black">Růst podložený daty</p>
+                            <p className="font-semibold text-black">Virální content</p>
                             <p className="text-zinc-700 text-sm">
-                                AB testy miniatur, copy a formátů, měříme to, co hýbe čísly.
+                                Používáme různé hooky , psychologická fakta a fakty o algoritmu sociálních sítí k tomu, aby obsah fungoval
                             </p>
                         </div>
                     </li>
@@ -80,10 +80,9 @@ const About: React.FC = () => {
                     <li className="flex items-start gap-3 rounded-xl border border-zinc-200 p-4">
                         <Users className="size-6 mt-0.5 text-primary shrink-0" />
                         <div>
-                            <p className="font-semibold text-black">Spolupráce na míru</p>
+                            <p className="font-semibold text-black">Přátelská spolehlivá spolupráce</p>
                             <p className="text-zinc-700 text-sm">
-                                Od konzultací po kompletní správu kanálů — podle cíle a rozpočtu.
-                            </p>
+                                Spolehlivost a přátelský přístup jsou základem naší práce. Věříme, že silné vztahy s klienty vedou k dlouhodobé úspěšné spolupráci, která přináší výsledky.                            </p>
                         </div>
                     </li>
                 </ul>
@@ -118,7 +117,7 @@ const About: React.FC = () => {
                     {/* Floating stat card 1 */}
                     <div className="absolute -bottom-6 left-4 md:left-8 bg-white/95 backdrop-blur border border-zinc-200 rounded-2xl p-4 shadow-sm">
                         <p className="text-xs text-zinc-500">Měsíční dosahy</p>
-                        <p className="text-xl font-semibold text-black">500k+</p>
+                        <p className="text-xl font-semibold text-black">1M+</p>
                     </div>
 
                     {/* Floating stat card 2 */}
