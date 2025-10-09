@@ -8,8 +8,8 @@ export const projects = [
     cover: '/photos/palatinum.png',
     gallery: [
       '/photos/palatinum.png',
-      '/photos/palatinum-detail1.jpg',
-      '/photos/palatinum-detail2.jpg',
+      '/prochazka/post.png',
+      '/prochazka/grafika.png',
     ],
     content: `
 ## Zadání projektu

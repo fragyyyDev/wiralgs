@@ -23,7 +23,7 @@ const About: React.FC = () => {
                 </p>
 
                 {/* Headline */}
-                <h2 className="text-4xl md:text-5xl font-semibold leading-tight text-black">
+                <h2 className="text-4xl md:text-6xl font-medium leading-tight text-black anton uppercase">
                     Proč nám firmy a jednotlivci <span className="text-primary">důvěřují?</span>
                 </h2>
 

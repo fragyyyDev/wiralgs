@@ -40,7 +40,7 @@ const Portfolio = () => {
                     NAŠE TVORBA
                 </p>
 
-                <h2 className="text-4xl md:text-5xl font-semibold leading-tight text-black">
+                <h2 className="text-4xl md:text-5xl font-medium uppercase leading-tight text-black anton">
                     Portfolio <span className="text-primary">projektů</span>, které mluví za nás
                 </h2>
 

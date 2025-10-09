@@ -64,7 +64,7 @@ const People = () => {
 
     return (
         <div className="w-full px-4 sm:px-6 lg:px-10 xl:px-16 mt-10 flex flex-col">
-            <h2 className="text-6xl font-bold w-full text-center mb-8">
+            <h2 className="text-6xl font-medium w-full text-center mb-8 anton uppercase">
                 Komu jsme <span className="text-primary">pomohli</span>
             </h2>
 

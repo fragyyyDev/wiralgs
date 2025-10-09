@@ -12,14 +12,14 @@ const ContactForm = () => {
                     NEZÁVAZNÝ KONTAKT
                 </p>
 
-                <h2 className="text-4xl md:text-5xl font-semibold leading-tight text-black">
+                <h2 className="text-4xl md:text-5xl leading-tight text-black anton uppercase">
                     Máte <span className="text-primary">zájem o spolupráci</span> nebo se chcete jen na něco zeptat?
                 </h2>
 
                 <p className="text-black text-lg md:text-xl leading-relaxed">
                     Ozvěte se nám přes formulář nebo napište přímo na{' '}
-                    <a href="mailto:kontakt@wiralgs.cz" className="underline text-primary">
-                        kontakt@wiralgs.cz
+                    <a href="mailto:kontakt@wiralgs.com" className="underline text-primary">
+                        info@wiralgs.com
                     </a>
                     . Odpovíme do 24 hodin.
                 </p>

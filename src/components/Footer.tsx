@@ -1,7 +1,7 @@
 // components/Footer.tsx
 
 import Link from 'next/link';
-import { Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
+import { Instagram, Linkedin, Mail, Twitter, Youtube } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -15,32 +15,18 @@ export default function Footer() {
           </p>
           <div className="flex gap-4">
             <Link
-              href="https://twitter.com/"
-              target="_blank"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <Twitter size={20} />
-            </Link>
-            <Link
-              href="https://instagram.com/"
+              href="https://instagram.com/wiralgs"
               target="_blank"
               className="hover:opacity-80 transition-opacity"
             >
               <Instagram size={20} />
             </Link>
             <Link
-              href="https://linkedin.com/"
+              href="mailto:info@wiralgs.com"
               target="_blank"
               className="hover:opacity-80 transition-opacity"
             >
-              <Linkedin size={20} />
-            </Link>
-            <Link
-              href="https://youtube.com/"
-              target="_blank"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <Youtube size={20} />
+              <Mail size={20} />
             </Link>
           </div>
         </div>
@@ -73,14 +59,8 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li>
               Email:{' '}
-              <a href="mailto:info@wiralgs.cz" className="text-white hover:underline">
-                info@wiralgs.cz
-              </a>
-            </li>
-            <li>
-              Telefon:{' '}
-              <a href="tel:+420123456789" className="text-white hover:underline">
-                +420 123 456 789
+              <a href="mailto:info@wiralgs.com" className="text-white hover:underline">
+                info@wiralgs.com
               </a>
             </li>
             <li>Praha, Česká republika</li>

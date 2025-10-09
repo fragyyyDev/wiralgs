@@ -4,7 +4,9 @@
 @theme {
   --color-primary: rgb(255 0 90);
 }
-
+.anton {
+  font-family: "Anton", sans-serif;
+}
 
 .marquee {
   animation: marquee 20s linear infinite;

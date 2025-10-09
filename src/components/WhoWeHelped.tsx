@@ -1,7 +1,13 @@
 import Image from "next/image";
 
 const logos = [
-  { src: "/logos/logo1.png", alt: "Logo ÚSTÍ Rapid" },
+  { src: "/logo/LOGO 1.png", alt: "Logo DOGGA CLAN" },
+  { src: "/logo/LOGO 2.png", alt: "Logo CENTURY 21" },
+  { src: "/logo/LOGO 3.png", alt: "Logo Palatinum Academy" },
+  { src: "/logo/LOGO 4.png", alt: "Logo Funded Mind" },
+  { src: "/logo/LOGO 5.png", alt: "Logo Selling Hub" },
+  { src: "/logo/LOGO 6.png", alt: "Logo Parseq" },
+  { src: "/logo/LOGO 7.png", alt: "Logo Vostrey" },
 ];
 
 const WhoWeHelped = () => {
